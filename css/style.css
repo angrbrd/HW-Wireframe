@@ -1,52 +1,75 @@
 body {
-    background-color: #efeee7;
-    font-family: "Georgia",Times New Roman,Times,serif;
-    color: #333333;
-    margin: 0;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 0;
+    background-color: #777;
+    width: 960px;
+    margin-left: auto;
+    margin-right:auto;
+	font-size 18px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+    color: #777;
 }
 
 header {
-	background-color: #333333;
+	background-color: #ebebeb;
+	padding: 15px;
+	margin: 15px 15px 15px 15px;
+}
+
+nav {
+	background-color: #ebebeb;
+	padding: 15px;
+	margin: 15px 15px 0px 15px;
+}
+
+footer {
+	background-color: #ebebeb;
+	clear: left;
+	padding: 15px;
+	margin: 15px 15px 15px 15px;
+}
+
+section {
+	background-color: #ebebeb;
+	width: 495px;
+	float: left;
+	padding: 10px;
+	margin: 15px 15px 15px 15px;
+}
+
+aside {
+    background-color: #ebebeb;
+    padding: 103px;
+	margin: 15px 15px 15px 550px;
+}
+
+article {
+	background-color: #777;
+	padding: 5px;
+	margin: 20px 5px 5px 5px;
+	color: #ebebeb;
+}
+
+#article{
+	background-color: #777;
+	padding: 5px;
+	margin: 20px 5px 5px 5px;
+	color: #ebebeb;
 }
 
 h1 {
-	color: white;
-	font-size: 28px;
-	text-align: center;
-    padding: 20px;
+	background-color: #ebebeb;
+	padding: 10px;
+	margin: 15px 15px 15px 15px;
+	font-weight: bold;
+	font-size: 19px;
+	color: #777;
 }
 
-h2 {
-	font-size: 24px;
+p {
+	background-color: #ebebeb;
+	padding: 10px;
+	margin: 15px 15px 15px 15px;
+	color: #777;
 }
 
-.container {
-	width: 1024px;
-	margin: 0 auto;
-}
-
-#main-bio, #bio-image, #contact-info {
-    float: left;
-}
-
-#bio-image {
-	width: 200px;
-    margin-right: 20px;
-}
-
-#main-bio {
-	width: 70%;
-	line-height: 150%;
-}
-
-#contact-info {
-	width: 30%;
-	line-height: 150%;
-}
-
-a {
-	color: #d21034;
-}
+.clear {}
